@@ -1,0 +1,80 @@
+/* Estilo Global */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #2E0249; /* Roxo escuro */
+  color: #FF79C6; /* Rosa */
+}
+
+/* Contêiner Principal */
+.container {
+  text-align: center;
+  padding: 20px;
+  margin: auto;
+  max-width: 800px;
+  background: #3C0066; /* Um tom mais claro de roxo */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+/* Título */
+h1 {
+  color: #FF79C6; /* Rosa */
+}
+
+/* Barra de Pesquisa */
+.search-bar {
+  margin-top: 20px;
+}
+
+#chord-input {
+  padding: 10px;
+  font-size: 16px;
+  width: 60%;
+  max-width: 400px;
+  border: 1px solid #FF79C6; /* Rosa */
+  border-radius: 4px;
+  background-color: #4B006E; /* Fundo do input */
+  color: #FF79C6; /* Texto do input */
+}
+
+#search-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #FF79C6; /* Rosa */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#search-button:hover {
+  background-color: #FF44AA; /* Rosa mais claro */
+}
+
+/* Resultados */
+#results {
+  margin-top: 20px;
+  text-align: left;
+}
+
+#results a {
+  text-decoration: none;
+  color: #FF79C6; /* Rosa */
+}
+
+#results a:hover {
+  text-decoration: underline;
+}
+
+#results p {
+  margin: 10px 0;
+}
+
+/* Rodapé */
+footer {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #FF79C6; /* Rosa */
+}
